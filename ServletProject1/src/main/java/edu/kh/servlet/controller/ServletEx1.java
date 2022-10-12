@@ -19,9 +19,9 @@ public class ServletEx1 extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-//		HttpServletRequest : 클라이언트의 정보 + 요청 관련 정보가 담긴 객체
+//		HttpServletRequest : 클라이언트의 정보 + 요청 관련 정보가 담긴 객체(요청관련객체)
 		
-//		HttpServletResponse : 서버가 클라이언트에게 응답하는 방법을 제공하는 객체
+//		HttpServletResponse : 서버가 클라이언트에게 응답하는 방법을 제공하는 객체(응답관련객체)
 		
 		System.out.println("이름, 나이를 제출 받아서 처리할 코드 수행 : ");
 		
