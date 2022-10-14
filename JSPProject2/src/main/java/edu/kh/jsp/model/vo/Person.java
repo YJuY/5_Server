@@ -9,6 +9,14 @@ public class Person {
 	// 컨트롤 스페이스 엔터
 	public Person() { } // 기본 생성자
 
+	public Person(String name, int age, String address) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.address = address;
+	}
+	
+	
 	// getter/setter
 	public String getName() {
 		return name;
@@ -21,6 +29,7 @@ public class Person {
 	public int getAge() {
 		return age;
 	}
+
 
 	public void setAge(int age) {
 		this.age = age;
@@ -39,7 +48,6 @@ public class Person {
 	public String toString(){
 		return name+" / " + age + " / " + address;
 	}
-	
 	
 	
 }
