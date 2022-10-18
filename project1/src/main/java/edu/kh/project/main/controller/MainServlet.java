@@ -33,7 +33,7 @@ public class MainServlet extends HttpServlet{
 			application.setAttribute("boardTypeMap", boardTypeMap);
 			
 			RequestDispatcher dispatcher
-				 = req.getRequestDispatcher("/WEB-INF/views/main.jsp");
+				 = req.getRequestDispatcher("/WEB-INF/views/common/main.jsp");
 			
 			dispatcher.forward(req, resp);
 			
