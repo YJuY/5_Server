@@ -268,7 +268,7 @@ AND MEMBER_EMAIL = 'user01@kh.or.kr'
 AND MEMBER_PW = 'pass01!';
 
 
-
+SELECT * FROM MEMBER;
 
 
 
