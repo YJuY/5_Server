@@ -270,7 +270,18 @@ AND MEMBER_PW = 'pass01!';
 
 SELECT * FROM MEMBER;
 
+-- 회원 정보 수정
 
+UPDATE 테이블 SET
+컬럼명 = 값
+WHERE 조건;
+
+UPDATE MEMBER SET
+MEMBER_NICKNAME = '변경된닉네임',
+MEMBER_TEL = '01012341234',
+MEMBER_ADDRESS = '12345,,서울,,어딘가'
+WHERE MEMBER_NO = 4;
+				   --> 로그인한 회원의 번호
 
 
 
